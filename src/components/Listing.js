@@ -13,7 +13,7 @@ function Listing({ items }) {
                 <div key={item.listing_id} className="item">
                     <div className="item-image">
                         <a href={item.url}>
-                            {/* <img src='https://github.com/netology-code/ra16-homeworks/raw/master/props/listing/assets/preview.png' alt={item.title} /> */}
+                            <img src='https://github.com/netology-code/ra16-homeworks/raw/master/props/listing/assets/preview.png' alt={item.title} />
                             {/* <img src={item.MainImage.url_570xN} alt={item.title} />                 http://prntscr.com/pg55n9 */ }
                         </a>
                     </div>
